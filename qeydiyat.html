@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="sign-login.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(141, 141, 141);">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="log.html">login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="qeydiyat.html">SignUp</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="sign-up-formu">
+       <img src="icon.png" alt="noo">
+       <h1> Sign Up </h1>
+       <form id="Sign-up">
+           <input type="text" class="yazi" placeholder="Name" id="Name">
+           <h6 id="first">+2symbol</h6>
+           <input type="text" class="yazi" placeholder="Surname" id="Surname">
+           <h6 id="surnm">+2symbol</h6>
+           <input type="email" class="yazi" placeholder="Email" id="Email">
+           <h6 id="gml"> ex.:abc@gmail.com</h6> 
+           <input type="password" class="yazi" placeholder="password" style="margin-bottom: 6px;" id="password"><br>
+           <h6 id="pswrd">beetween 6 and 12</h6>
+           <button type="button" class="btn" id="signup"> sign-up</button>  
+
+       </form>
+
+  </div>
+</body>
+</html>
